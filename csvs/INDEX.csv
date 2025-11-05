@@ -1,0 +1,14 @@
+artifact,path
+Explicit dataset CSV,csvs\tradeoffs_all_points_EXPLICIT.csv
+Pareto (unconstrained) CSV,csvs\pareto_front_unconstrained.csv
+Pareto sensitivity (unconstrained) CSV,csvs\pareto_weight_sensitivity_unconstrained.csv
+Feasible (constrained) CSV,csvs\feasible_constrained.csv
+Pareto (constrained) CSV,csvs\pareto_front_constrained.csv
+Pareto sensitivity (constrained) CSV,csvs\pareto_weight_sensitivity_constrained.csv
+ε-knees (constrained) CSV,csvs\knees_epsilon_constrained.csv
+Fig1 Pareto 3D,csvs\../outputs/figs_derived\fig1_pareto3d_layer.png
+Fig2 Error–Energy bubble,csvs\../outputs/figs_derived\fig2_error_energy_bubble.png
+Fig3 Edge vs Cloud uplift,csvs\../outputs/figs_derived\fig3_edge_cloud_uplift.png
+Fig4 ε-knees overlay,csvs\../outputs/figs_derived\fig4_knees_energy_error.png
+Fig5 Layer Health radar,csvs\../outputs/figs_derived\fig5_layer_health_radar.png
+Fig6 Parallel coordinates,csvs\../outputs/figs_derived\fig6_parallel_coordinates.png
