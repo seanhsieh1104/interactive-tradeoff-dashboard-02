@@ -204,7 +204,7 @@ outputs/figs_dashboard_rank/
 ## 🧾 Citation
 
 If you use this repository in your work, please cite:
-
+https://github.com/seanhsieh1104/interactive-tradeoff-dashboard-02.git
 ---
 
 ## 🔐 License
