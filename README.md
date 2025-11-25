@@ -180,3 +180,5 @@ This open-data, open-code release aims to foster transparent and reproducible
 design evaluation for **Smart Earables for Continuous Health Monitoring: A Simulation-Driven Trade-off Framework**.  
 By combining data, scoring logic, and visuals in a single executable artifact,
 it bridges quantitative analysis with implementable system design choices.
+
+<img width="1474" height="1405" alt="image" src="https://github.com/user-attachments/assets/c300a4a0-5521-475d-bf84-94ff2dfb7347" />
