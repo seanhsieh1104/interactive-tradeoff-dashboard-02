@@ -54,28 +54,40 @@ and visualizes trade-offs through interactive 3-D Pareto dashboards and analytic
 
  
 3. **Dashboard Generation** – Render interactive 3-D Pareto surfaces with ε-knee discovery, constraint filtering, and human-in-the-loop reweighting. The screenshot of the dashboard is shown below.
+<img width="1574" height="1524" alt="image" src="https://github.com/user-attachments/assets/de7ee3ed-0855-4bb6-a0c3-a5d790952332" />
+<img width="2048" height="509" alt="image" src="https://github.com/user-attachments/assets/cfa5a465-28a1-48be-a8be-9e5449fed9e3" />
+<img width="2048" height="509" alt="image" src="https://github.com/user-attachments/assets/d922b1aa-8b03-48d9-af9d-ceb2ed42b6ae" />
 
 
 4. **Figure Reproduction** – Automatically capture petal diagrams, heatmaps, and Pareto screenshots for publication-quality figures.
 
     3.1. Metric-Contribution Composition
+<img width="519" height="519" alt="image" src="https://github.com/user-attachments/assets/bfe13a5f-2e7f-4f0d-8c5f-34e2ee9d4b10" />
 
     3.2. Radar Profile of the Optimal Configuration
+<img width="519" height="519" alt="image" src="https://github.com/user-attachments/assets/7337c697-efe6-4ce1-91c7-820639d6f3ec" />
 
     3.3. Metric-Contribution Heatmap Summary
+<img width="811" height="674" alt="image" src="https://github.com/user-attachments/assets/ca4d5927-9c52-4bb3-a210-a8f5cf4d2f07" />
 
     3.4. SIX REPRESENTATIVE
         (1) Battery-Dominant
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/2952e370-6172-4f2a-8664-7c9d1c7127a9" />
 
         (2) Latency-Sensitive
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/37beacda-acbb-4609-b711-ce517e4e4a20" />
 
         (3) Cloud-Assisted
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/d154cd65-2158-41e5-a9d7-39e02dc04c1d" />
 
         (4) Stress-Robust 
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/52654ec8-61fb-4175-972d-a5003b27a0ae" />
 
         (5) Throughput-Optimized
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/31488f07-9317-45f6-bded-c81353f9c681" />
 
         (6) Balanced-Clinical 
+<img width="433" height="433" alt="image" src="https://github.com/user-attachments/assets/caa117ad-4a60-4657-80ad-e767a7fd981c" />
 
 ---
 
