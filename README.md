@@ -27,22 +27,31 @@ and visualizes trade-offs through interactive 3-D Pareto dashboards and analytic
       1.1. Definition: Sensing Error:   
         For modality i, the expected error (expressed as a percentage) is modeled as a multiplicative product of a 
         sampling term, model-tier factor, duty factor, motion penalty, noise penalty, and fit-quality factor. Error decreases with higher sampling and stronger models, increases under motion, noise, or poor fit, and can be further reduced by an optional cloud-assist term.
-<img width="1080" height="286" alt="image" src="https://github.com/user-attachments/assets/cec18511-9b4e-4c4e-b2fd-9c470f2819c2" />
+   <img width="1080" height="286" alt="image" src="https://github.com/user-attachments/assets/cec18511-9b4e-4c4e-b2fd-9c470f2819c2" />
 
       1.2. Definition: Coverage 
         For modality i, Coverage is the effective fraction of valid measurements in a day, bounded in [0,1]. It scales with duty factor, degrades with motion, and improves with better fit quality; optional uptime and link-loss terms can be included when networking affects validity.
+   <img width="954" height="178" alt="image" src="https://github.com/user-attachments/assets/90ebe9ec-8b6f-430a-83f8-5d6485d500cc" />
+
 
       1.3. Definition: Daily Energy. 
         Total daily energy per modality is modeled as the sum of sensing, compute, and networking contributions, plus IMU/fit-detection overhead and a small random variability term. The model captures trade-offs across these stages: energy increases with higher sampling rates, larger inference models, and cloud transport, and decreases with reduced duty cycle and greater on-device processing. The unit of Daily Energy is milliwatt-hour per day (mWh/day).
+   <img width="844" height="168" alt="image" src="https://github.com/user-attachments/assets/9d58ccbc-d8c3-42e9-98a6-ddc39230c71b" />
+
 
       1.4. Definition: Latency p95
         The 95th-percentile latency, with units of seconds (s), is modeled as baseline pipeline time plus model compute time and network transport time, with additional duty-cycle spin-up overhead and a multiplicative jitter term. Latency increases at low duty factors, with heavier models, and with larger network delays, reflecting degraded responsiveness.
-      
+   <img width="934" height="96" alt="image" src="https://github.com/user-attachments/assets/e1c4a90a-8655-4739-a62b-d6d8fdb777b8" />
+
       1.5. Derived metircs
         From the core models in Definitions (1)-(4), we define six derived indicators that summarize day-scale endurance, energy-latency coupling, energy-error trade-offs, error comparability, stress sensitivity, and offload benefit. The derived metrics are listed as below:
+   <img width="2168" height="882" alt="image" src="https://github.com/user-attachments/assets/614b8c14-4b6f-4f51-b62e-8858770dfe71" />
+
 
       1.6 COMPOSITE SCORE
-        This score defines a composite WScore as a normalized weighted sum of min-max normalized metrics; lower values indicate better overall performance under the chosen preset. The metric set spans IoT layers (device, edge, connectivity, data, analytics, and operations), so cross-layer effects enter through which metrics are included and how they are weighted. Because all terms are min–max normalized within the current configuration grid, WScore expresses relative efficiency within this dataset; expanding the grid or adding new modalities will rescale the scores.      
+        This score defines a composite WScore as a normalized weighted sum of min-max normalized metrics; lower values indicate better overall performance under the chosen preset. The metric set spans IoT layers (device, edge, connectivity, data, analytics, and operations), so cross-layer effects enter through which metrics are included and how they are weighted. Because all terms are min–max normalized within the current configuration grid, WScore expresses relative efficiency within this dataset; expanding the grid or adding new modalities will rescale the scores.
+   <img width="974" height="192" alt="image" src="https://github.com/user-attachments/assets/00a9b1d0-dc16-4b41-8e57-3f36350eaff7" />
+
  
 3. **Dashboard Generation** – Render interactive 3-D Pareto surfaces with ε-knee discovery, constraint filtering, and human-in-the-loop reweighting. The screenshot of the dashboard is shown below.
 
