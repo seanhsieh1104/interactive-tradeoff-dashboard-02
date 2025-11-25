@@ -27,6 +27,7 @@ and visualizes trade-offs through interactive 3-D Pareto dashboards and analytic
       1.1. Definition: Sensing Error:   
         For modality i, the expected error (expressed as a percentage) is modeled as a multiplicative product of a 
         sampling term, model-tier factor, duty factor, motion penalty, noise penalty, and fit-quality factor. Error decreases with higher sampling and stronger models, increases under motion, noise, or poor fit, and can be further reduced by an optional cloud-assist term.
+<img width="1080" height="286" alt="image" src="https://github.com/user-attachments/assets/cec18511-9b4e-4c4e-b2fd-9c470f2819c2" />
 
       1.2. Definition: Coverage 
         For modality i, Coverage is the effective fraction of valid measurements in a day, bounded in [0,1]. It scales with duty factor, degrades with motion, and improves with better fit quality; optional uptime and link-loss terms can be included when networking affects validity.
