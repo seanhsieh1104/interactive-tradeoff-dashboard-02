@@ -23,6 +23,7 @@ and visualizes trade-offs through interactive 3-D Pareto dashboards and analytic
 
 1. **Metric Derivation** – Normalize, scale, and combine multi-objective data into a comparable score table. The 
    metrics used in this paper are listed below.
+   
       1.1. Definition: Sensing Error:   
         For modality i, the expected error (expressed as a percentage) is modeled as a multiplicative product of a 
         sampling term, model-tier factor, duty factor, motion penalty, noise penalty, and fit-quality factor. Error decreases with higher sampling and stronger models, increases under motion, noise, or poor fit, and can be further reduced by an optional cloud-assist term.
@@ -42,10 +43,10 @@ and visualizes trade-offs through interactive 3-D Pareto dashboards and analytic
       1.6 COMPOSITE SCORE
         This score defines a composite WScore as a normalized weighted sum of min-max normalized metrics; lower values indicate better overall performance under the chosen preset. The metric set spans IoT layers (device, edge, connectivity, data, analytics, and operations), so cross-layer effects enter through which metrics are included and how they are weighted. Because all terms are min–max normalized within the current configuration grid, WScore expresses relative efficiency within this dataset; expanding the grid or adding new modalities will rescale the scores.      
  
-2. **Dashboard Generation** – Render interactive 3-D Pareto surfaces with ε-knee discovery, constraint filtering, and human-in-the-loop reweighting. The screenshot of the dashboard is shown below.
+3. **Dashboard Generation** – Render interactive 3-D Pareto surfaces with ε-knee discovery, constraint filtering, and human-in-the-loop reweighting. The screenshot of the dashboard is shown below.
 
 
-3. **Figure Reproduction** – Automatically capture petal diagrams, heatmaps, and Pareto screenshots for publication-quality figures.
+4. **Figure Reproduction** – Automatically capture petal diagrams, heatmaps, and Pareto screenshots for publication-quality figures.
 
     3.1. Metric-Contribution Composition
 
